@@ -1,0 +1,33 @@
+.ayuda-opciones {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; /* 👈 agrega separación abajo */
+  background-color: #eef2ff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #374151;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.sugerencias-lista {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sugerencia-item {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  user-select: none;
+}

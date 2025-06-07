@@ -1,0 +1,62 @@
+.foto-personaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.foto-personaje img {
+  max-height: 100%;
+  max-width: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 
+    0 12px 30px rgba(102, 126, 234, 0.3),
+    0 0 0 4px rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  animation: imageAppear 0.6s ease-out;
+}
+
+.foto-personaje img:hover {
+  transform: scale(1.05);
+  box-shadow: 
+    0 16px 40px rgba(102, 126, 234, 0.4),
+    0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+@keyframes imageAppear {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .foto-personaje {
+    height: 160px;
+    margin: 0.75rem 0;
+  }
+
+  .foto-personaje img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .foto-personaje {
+    height: 140px;
+    margin: 0.5rem 0;
+  }
+
+  .foto-personaje img {
+    max-width: 180px;
+  }
+}

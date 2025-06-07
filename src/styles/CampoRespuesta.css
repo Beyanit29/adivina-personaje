@@ -1,0 +1,24 @@
+.btn-responder {
+  margin-left: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-responder:hover {
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
