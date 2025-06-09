@@ -19,22 +19,43 @@ function App() {
   const [mensaje, setMensaje] = useState('');
   const [intentos, setIntentos] = useState(0);
   const [puntaje, setPuntaje] = useState(0);
-  
-  const personaje = personajes[indice];
 
+  const [mostrarBoton, setMostrarBoton] = useState(false);
+  const personaje = personajes?.[indice] ?? null;
+
+  useEffect(() => {
+  if (!personaje) return;
+  if (!personaje) return <p>Cargando personaje...</p>;
+
+
+  const genero = personaje.genero;
+
+  const distractores = personajes
+    .filter(p => p.nombre !== personaje.nombre && p.genero === genero)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 4)
+    .map(p => p.nombre);
+
+  const opciones = [...distractores, personaje.nombre].sort(() => 0.5 - Math.random());
+  setOpcionesTexto(opciones);
+}, [indice, personaje]);
 
   const [opcionesTexto, setOpcionesTexto] = useState([]);
 
-  useEffect(() => {
-    const distractores = personajes
-      .filter(p => p.nombre !== personaje.nombre)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3)
-      .map(p => p.nombre);
 
-    const opciones = [...distractores, personaje.nombre].sort(() => 0.5 - Math.random());
-    setOpcionesTexto(opciones);
-  }, [indice]);
+  useEffect(() => {
+  const genero = personaje.genero; // 'f' o 'm'
+
+  const distractores = personajes
+    .filter(p => p.nombre !== personaje.nombre && p.genero === genero) // 👈 mismo género
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 4)
+    .map(p => p.nombre);
+
+  const opciones = [...distractores, personaje.nombre].sort(() => 0.5 - Math.random());
+  setOpcionesTexto(opciones);
+}, [indice]);
+
 
 
   const manejarEnvio = (e) => {
@@ -47,14 +68,17 @@ function App() {
     if (entrada === correcto) {
       setMensaje(`🎉 ¡Correcto! Era ${personaje.nombre}`);
       setPuntaje((prev) => prev + 1);
+      setMostrarBoton(true);  // ✅ Mostrar botón
     } else {
       if (indicePista < personaje.pistas.length - 1) {
         setIndicePista((prev) => prev + 1);
         setMensaje('❌ Incorrecto. Aquí va otra pista...');
       } else {
         setMensaje(`Lo siento, era ${personaje.nombre}`);
+        setMostrarBoton(true);  // ✅ Mostrar botón también
       }
     }
+
 
     setRespuesta('');
   };
@@ -65,13 +89,14 @@ function App() {
     setMensaje('');
     setRespuesta('');
     setIntentos(0);
+    setMostrarBoton(false); // ✅ Ocultar botón al pasar al siguiente
   };
+
 
   const iniciarJuego = () => {
     setJuegoIniciado(true);
   };
 
-  const mostrarBoton = mensaje.includes('Correcto') || mensaje.includes('Lo siento');
 
   if (!juegoIniciado) return <MenuInicial onIniciar={iniciarJuego} />;
 
@@ -88,6 +113,7 @@ function App() {
       <Sugerencias opciones={opcionesTexto} />
 
       <CampoRespuesta
+
         respuesta={respuesta}
         setRespuesta={setRespuesta}
         manejarEnvio={manejarEnvio}
@@ -104,8 +130,6 @@ function App() {
           siguiente={siguiente}
         />
       )}
-
-
 
     </div>
   );

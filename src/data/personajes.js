@@ -2,6 +2,7 @@ export const personajes = [
   {
     nombre: "Ada Lovelace",
     imagen: "ada_lovelace.jpg",
+    genero: "f",
     pistas: [
       "Era hija del poeta Lord Byron.",
       "Nació en 1815 en Inglaterra.",
@@ -13,6 +14,7 @@ export const personajes = [
   {
     nombre: "Alan Turing",
     imagen: "Alan_Turing.jpg",
+    genero: "m",
     pistas: [
       "Nació en 1912 en el Reino Unido.",
       "Propuso una máquina teórica que lleva su nombre.",
@@ -24,6 +26,7 @@ export const personajes = [
   {
     nombre: "Tim Berners Lee",
     imagen: "tim_berners.jpg",
+    genero: "m",
     pistas: [
       "Inventó la World Wide Web en 1989.",
       "Trabajó en el CERN cuando desarrolló el primer navegador.",
@@ -35,6 +38,7 @@ export const personajes = [
   {
     nombre: "Margaret Hamilton",
     imagen: "Margaret_Hamilton.jpg",
+    genero: "f",
     pistas: [
       "Lideró el desarrollo del software del Apolo 11.",
       "Trabajó en el MIT en los años 60.",
@@ -46,6 +50,7 @@ export const personajes = [
   {
     nombre: "Grace Hopper",
     imagen: "Grace_Hopper.jpg",
+    genero: "f",
     pistas: [
       "Desarrolló el primer compilador para un lenguaje de programación.",
       "Trabajó en la Marina de los EE. UU.",
@@ -57,6 +62,7 @@ export const personajes = [
   {
     nombre: "Steve Jobs",
     imagen: "steve_jobs.jpg",
+    genero: "m",
     pistas: [
       "Fundador de Apple Inc.",
       "Lideró el desarrollo del iPhone, iPad y Mac.",
@@ -68,6 +74,7 @@ export const personajes = [
   {
     nombre: "Bill Gates",
     imagen: "bill_gates.jpg",
+    genero: "m",
     pistas: [
       "Fundador de Microsoft.",
       "Ayudó a popularizar el sistema operativo Windows.",
@@ -79,6 +86,7 @@ export const personajes = [
   {
     nombre: "Dennis Ritchie",
     imagen: "Dennis_Ritchie.jpg",
+    genero: "f",
     pistas: [
       "Creador del lenguaje de programación C.",
       "Colaborador en el sistema operativo UNIX.",
@@ -90,6 +98,7 @@ export const personajes = [
   {
     nombre: "Ken Thompson",
     imagen: "Ken_Thompson.jpg",
+    genero: "m",
     pistas: [
       "Co-creador del sistema operativo UNIX.",
       "Diseñó el lenguaje de programación B.",
@@ -101,6 +110,7 @@ export const personajes = [
   {
     nombre: "Linus Torvalds",
     imagen: "Linus_Torvalds.jpg",
+    genero: "m",
     pistas: [
       "Creador del núcleo Linux.",
       "Comenzó el proyecto como estudiante en Finlandia.",
@@ -113,6 +123,7 @@ export const personajes = [
   {
       nombre: "Charles Babbage",
       imagen: "https://blog.sciencemuseum.org.uk/wp-content/uploads/2015/02/Babbage1-650x1024.jpg",
+      genero: "m",
       pistas: [
         "Diseñó la Máquina Analítica en el siglo XIX.",
         "Es considerado el 'padre de la computadora'.",
@@ -124,6 +135,7 @@ export const personajes = [
   {
     nombre: "John von Neumann",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/d/d6/JohnvonNeumann-LosAlamos.jpg",
+    genero: "m",
     pistas: [
       "Propuso la arquitectura de Von Neumann en 1945.",
       "Su modelo divide la computadora en memoria, CPU y entrada/salida.",
@@ -135,6 +147,7 @@ export const personajes = [
   {
     nombre: "George Boole",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/c/ce/George_Boole_color.jpg",
+    genero: "m",
     pistas: [
       "Creó el álgebra booleana en el siglo XIX.",
       "Su trabajo sentó las bases de la lógica digital.",
@@ -146,6 +159,7 @@ export const personajes = [
   {
     nombre: "Herman Hollerith",
     imagen: "https://billiken.lat/wp-content/uploads/2021/08/94033249_10158022718511745_3515356226978316288_n.jpg",
+    genero: "m",
     pistas: [
       "Inventó una máquina tabuladora con tarjetas perforadas.",
       "Su máquina fue usada en el censo de 1890 en EE.UU.",
@@ -157,6 +171,7 @@ export const personajes = [
   {
     nombre: "Konrad Zuse",
     imagen: "https://static.wikia.nocookie.net/genios-computacion-1002/images/4/4d/Descarga_%281%29.jpg/revision/latest?cb=20171128002245&path-prefix=es",
+    genero: "m",
     pistas: [
       "Construyó la Z3, la primera computadora electromecánica.",
       "La Z3 era programable y fue completada en 1941.",
@@ -168,6 +183,7 @@ export const personajes = [
   {
     nombre: "Claude Shannon",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/C.E._Shannon._Tekniska_museet_43069_%28cropped%29.jpg/1200px-C.E._Shannon._Tekniska_museet_43069_%28cropped%29.jpg",
+    genero: "m",
     pistas: [
       "Es considerado el padre de la teoría de la información.",
       "Aplicó álgebra booleana a circuitos eléctricos.",
@@ -179,6 +195,7 @@ export const personajes = [
   {
     nombre: "John Backus",
     imagen: "https://ethw.org/w/images/5/57/Backus.jpg",
+    genero: "m",
     pistas: [
       "Lideró el desarrollo del lenguaje FORTRAN.",
       "FORTRAN fue el primer lenguaje de programación de alto nivel.",
@@ -190,6 +207,7 @@ export const personajes = [
   {
     nombre: "Robert Noyce",
     imagen: "https://ieeecs-media.computer.org/wp-media/2018/04/13200403/robert-noyce-e1523649869375.jpg",
+    genero: "m",
     pistas: [
       "Cofundó Intel en 1968.",
       "Coinventó el circuito integrado junto a Jack Kilby.",
@@ -201,6 +219,7 @@ export const personajes = [
   {
     nombre: "Jack Kilby",
     imagen: "https://ahombrosdegigantescienciaytecnologia.wordpress.com/wp-content/uploads/2016/02/kilby.jpg",
+    genero: "m",
     pistas: [
       "Inventó el circuito integrado en 1958 mientras trabajaba en Texas Instruments.",
       "Ganó el Premio Nobel de Física en 2000 por su invención.",
@@ -212,6 +231,7 @@ export const personajes = [
   {
     nombre: "Vannevar Bush",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Vannevar_Bush%2C_1938%2C_Harris_%26_Ewing_%28cropped%29.jpg/1200px-Vannevar_Bush%2C_1938%2C_Harris_%26_Ewing_%28cropped%29.jpg",
+    genero: "m",
     pistas: [
       "Propuso el concepto de 'Memex', un sistema de hipertexto.",
       "Su visión inspiró el desarrollo de la World Wide Web.",
@@ -223,6 +243,7 @@ export const personajes = [
   {
     nombre: "Alejandro Taboada Sánchez",
     imagen: "https://teachlr.com/content/images/profile/migueltaboadas-198x198.jpg", 
+    genero: "m",
     pistas: [
       "Más conocido como 'Programación ATS', fue un referente educativo en YouTube.",
       "Creó cientos de tutoriales de programación en diversos lenguajes.",
@@ -235,6 +256,7 @@ export const personajes = [
   {
     nombre: "Marlyn Wescoff Meltzer",
     imagen: "https://static.pantheon.world/profile/people/5094580.jpg",
+    genero: "f",
     pistas: [
       "Ayudó a establecer la programación como una profesión legítima.",
       "Fue una de las programadoras originales de la ENIAC.",
@@ -246,6 +268,7 @@ export const personajes = [
   {
     nombre: "Jean E. Sammet",
     imagen: "https://ieeecs-media.computer.org/wp-media/2018/03/29214939/jeansammet-e1522360220997.jpg",
+    genero: "f",
     pistas: [
       "Desarrolló el lenguaje de programación FORMAC, especializado en matemáticas simbólicas.",
       "Fue una figura clave en la evolución de lenguajes de alto nivel.",
@@ -257,6 +280,7 @@ export const personajes = [
   {
     nombre: "Beatrice Worsley",
     imagen: "https://mujeresconciencia.com/app/uploads/2015/10/2015-05-25-Worsely-1944_Trinity-College-Grad-Photo.jpg",
+    genero: "f",
     pistas: [
       "Primera científica informática de Canadá.",
       "Escribió el primer programa ejecutado en la EDSAC.",
@@ -268,6 +292,7 @@ export const personajes = [
   {
     nombre: "Mary Kenneth Keller",
     imagen: "https://mujeresconciencia.com/app/uploads/2017/05/Mary-Kenneth-Keller-768x574.jpg",
+    genero: "f",
     pistas: [
       "Fue la primera mujer en obtener un doctorado en informática en Estados Unidos.",
       "Promovió la enseñanza de programación a nivel universitario.",
@@ -279,6 +304,7 @@ export const personajes = [
   {
     nombre: "Dina St Johnston",
     imagen: "https://www.magnificentwomen.co.uk/uploads/4/0/3/7/40379829/published/dinaold1-from-dina-via-simon-lavington.jpg?1574331268",
+    genero: "f",
     pistas: [
       "Fundó la primera empresa de software del Reino Unido en 1959.",
       "Fue pionera en el desarrollo de software personalizado para la industria.",
@@ -290,6 +316,7 @@ export const personajes = [
   {
     nombre: "Douglas Engelbart",
     imagen: "https://www.buscabiografias.com/img/people/Douglas_Engelbart.jpg",
+    genero: "m",
     pistas: [
       "Inventó el mouse y lo presentó en 1968 en 'La madre de todas las demos'.",
       "Desarrolló interfaces gráficas interactivas para computadoras.",
@@ -301,6 +328,7 @@ export const personajes = [
   {
     nombre: "Robert Metcalfe",
     imagen: "https://sxtxstate.com/wp-content/uploads/2012/03/bob_metcalfe.jpg",
+    genero: "m",
     pistas: [
       "Creador de Ethernet, una tecnología clave para redes de área local.",
       "Cofundador de la empresa 3Com.",
@@ -312,6 +340,7 @@ export const personajes = [
   {
     nombre: "Niklaus Wirth",
     imagen: "https://static01.nyt.com/images/2024/02/23/multimedia/21Wirth--02-wlqc-print1/21Wirth--02-wlqc-mediumSquareAt3X.jpg",
+    genero: "m",
     pistas: [
       "Diseñó los lenguajes de programación Pascal, Modula y Oberon.",
       "Fue un defensor del software estructurado y eficiente.",
@@ -323,6 +352,7 @@ export const personajes = [
   {
     nombre: "Donald Knuth",
     imagen: "https://www.kyotoprize.org/wp-content/uploads/2019/07/th_1996_a_knuth.jpg",
+    genero: "m",
     pistas: [
       "Autor de 'The Art of Computer Programming', obra fundamental en algoritmos.",
       "Desarrolló el sistema tipográfico TeX y el lenguaje METAFONT.",
@@ -334,6 +364,7 @@ export const personajes = [
   {
     nombre: "John McCarthy",
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cZd8hJqVUqRu8WPxecNsgRns_m7FBTQeiA&s",
+    genero: "m",
     pistas: [
       "Acuñó el término 'inteligencia artificial' en 1955.",
       "Desarrolló el lenguaje de programación LISP.",
@@ -345,6 +376,7 @@ export const personajes = [
   {
     nombre: "Marvin Minsky",
     imagen: "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/01/146761-marvin-minsky.jpg?tf=1200x1200",
+    genero: "m",
     pistas: [
       "Cofundador del MIT Media Lab.",
       "Fue uno de los principales pioneros de la inteligencia artificial.",
@@ -356,6 +388,7 @@ export const personajes = [
   {
     nombre: "Richard Stallman",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/4/46/Richard_Stallman_2005_%28chrys%29.jpg",
+    genero: "m",
     pistas: [
       "Fundador del movimiento del software libre.",
       "Inició el proyecto GNU para crear un sistema operativo libre.",
@@ -367,6 +400,7 @@ export const personajes = [
   {
     nombre: "Brian Kernighan",
     imagen: "https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/bwk-profile.jpg?h=eb6cc69c&itok=BV8PLaTL",
+    genero: "m",
     pistas: [
       "Colaboró en el desarrollo del lenguaje C junto a Dennis Ritchie.",
       "Coautor del libro 'The C Programming Language'.",
@@ -378,6 +412,7 @@ export const personajes = [
   {
     nombre: "Bjarne Stroustrup",
     imagen: "https://studysection.com/blog/wp-content/uploads/2019/11/Bjarne_stroustrup.png",
+    genero: "m",
     pistas: [
       "Creador del lenguaje de programación C++.",
       "Buscó combinar eficiencia de C con orientación a objetos.",
@@ -389,6 +424,7 @@ export const personajes = [
   {
     nombre: "Guido van Rossum",
     imagen: "https://gvanrossum.github.io/images/guido-headshot-2019.jpg",
+    genero: "m",
     pistas: [
       "Creador del lenguaje de programación Python en 1991.",
       "Diseñó Python como un lenguaje legible y versátil.",
@@ -400,6 +436,7 @@ export const personajes = [
   {
     nombre: "James Gosling",
     imagen: "https://www.madboxpc.com/wp-content/uploads/2010/04/James_Gosling_java_cocreator.jpg",
+    genero: "m",
     pistas: [
       "Conocido como el 'padre de Java', creó este lenguaje en 1994.",
       "Diseñó la máquina virtual Java (JVM) y su compilador original.",
@@ -411,10 +448,11 @@ export const personajes = [
   {
     nombre: "Brendan Eich",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/960px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg",
+    genero: "m",
     pistas: [
       "Inventó JavaScript en solo 10 días en 1995 mientras trabajaba en Netscape.",
       "Fundó la Fundación Mozilla y fue su CTO y CEO.",
-      "Es CEO de Brave Software, creadora del navegador Brave.",
+      "Es CEO de Brave Software, creador del navegador Brave.",
       "Desarrolló el token BAT para revolucionar la publicidad digital.",
       "Nació en 1961 en Pittsburgh, Estados Unidos."
     ]
@@ -422,6 +460,7 @@ export const personajes = [
   {
     nombre: "Yoshua Bengio",
     imagen: "https://www.bloglenovo.es/app/uploads/2024/05/Yoshua-Bengio-pcpal-compressed.jpg",
+    genero: "m",
     pistas: [
       "Pionero del aprendizaje profundo y redes neuronales.",
       "Ganó el Premio Turing en 2018 junto a Hinton y LeCun.",
@@ -433,6 +472,7 @@ export const personajes = [
   {
     nombre: "Geoffrey Hinton",
     imagen: "https://www.nobelprize.org/images/165768-portrait-medium.jpg",
+    genero: "m",
     pistas: [
       "Conocido como el 'padrino de la IA', desarrolló el algoritmo de retropropagación.",
       "Ganó el Premio Turing en 2018 por su trabajo en redes neuronales.",
@@ -444,6 +484,7 @@ export const personajes = [
   {
     nombre: "Yann LeCun",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Yann_LeCun_2019.jpg",
+    genero: "m",
     pistas: [
       "Creador de las redes neuronales convolucionales (CNN).",
       "Ganó el Premio Turing en 2018 junto a Bengio y Hinton.",
@@ -455,6 +496,7 @@ export const personajes = [
   {
     nombre: "Mark Zuckerberg",
     imagen: "https://static.wikia.nocookie.net/genios-computacion-1003/images/e/ef/Mark_Zuckerberg.jpg/revision/latest?cb=20171126000218&path-prefix=es",
+    genero: "m",
     pistas: [
       "Fundador y CEO de Meta (antes Facebook), una de las redes sociales más influyentes del mundo.",
       "Desarrolló Facebook desde su dormitorio en Harvard en 2004.",
@@ -466,6 +508,7 @@ export const personajes = [
   {
     nombre: "Fei-Fei Li",
     imagen: "https://deeplearningindaba.com/wp-content/uploads/2019/07/dr-fei-fei-li.jpg",
+    genero: "f",
     pistas: [
       "Co-creadora de ImageNet, un proyecto clave en el avance del reconocimiento de imágenes por IA.",
       "Fue directora del AI Lab de Stanford y trabajó en Google Cloud como Chief Scientist de IA.",
@@ -477,6 +520,7 @@ export const personajes = [
   {
     nombre: "Demis Hassabis",
     imagen: "https://www.nobelprize.org/images/165765-portrait-medium.jpg",
+    genero: "m",
     pistas: [
       "Fundador de DeepMind, compañía detrás de AlphaGo y AlphaFold.",
       "AlphaGo venció a campeones humanos en el juego Go usando IA avanzada.",
@@ -488,6 +532,7 @@ export const personajes = [
   {
     nombre: "Andrew Ng",
     imagen: "https://www.cnbcevents.com/wp-content/uploads/2019/10/Andrew-Ng-e1571414977848-scaled.jpg",
+    genero: "m",
     pistas: [
       "Cofundador de Google Brain y ex Jefe Científico de Baidu AI.",
       "Lanzó el famoso curso de Machine Learning en Coursera.",
@@ -499,6 +544,7 @@ export const personajes = [
   {
     nombre: "Radia Perlman",
     imagen: "https://mujeresconciencia.com/app/uploads/2017/01/radia.jpg",
+    genero: "f",
     pistas: [
       "Inventora del protocolo Spanning Tree, base de las redes Ethernet.",
       "Apodada 'La madre de Internet'.",
@@ -510,6 +556,7 @@ export const personajes = [
   {
     nombre: "Frances E. Allen",
     imagen: "https://lh6.googleusercontent.com/proxy/eSQCqI0vWlO6PX9tc4eS60QXLE8Qa8osImqZgdlaxHTyGXRr4ArMga_EX2JVMX80EjOIJKo6IWLohlKpThqeBXAXddm0Bw95Y1SYk_nNzN9q7TWKLX08H1aMtubpQLrH1vTx",
+    genero: "f",
     pistas: [
       "Primera mujer en recibir el Premio Turing (2006).",
       "Trabajó en la optimización de compiladores para IBM.",
@@ -521,6 +568,7 @@ export const personajes = [
   {
     nombre: "Tim Berners-Lee",
     imagen: "https://thinkingheads.com/wp-content/uploads/2024/12/tim-berners-lee-conferenciante.jpg",
+    genero: "m",
     pistas: [
       "Inventó la World Wide Web en 1989 mientras trabajaba en el CERN.",
       "Propuso los protocolos HTTP, HTML y las URL.",
@@ -532,6 +580,7 @@ export const personajes = [
   {
     nombre: "Sal Khan",
     imagen: "https://cdn.kastatic.org/images/headshots/sal_updated_2.jpg",
+    genero: "m",
     pistas: [
       "Fundador de Khan Academy, plataforma educativa gratuita y global.",
       "Usa software e inteligencia artificial para personalizar el aprendizaje.",
@@ -543,6 +592,7 @@ export const personajes = [
   {
     nombre: "Ian Goodfellow",
     imagen: "https://analyticsindiamag.com/wp-content/uploads/2024/09/Ian-Goodfellow.webp",
+    genero: "m",
     pistas: [
       "Creador de las GANs (Redes Generativas Antagónicas).",
       "Trabajó en Google Brain, OpenAI y Apple.",
@@ -554,6 +604,7 @@ export const personajes = [
   {
     nombre: "Lex Fridman",
     imagen: "https://upload.wikimedia.org/wikipedia/commons/5/50/Lex_Fridman_teaching_at_MIT_in_2018.png",
+    genero: "m",
     pistas: [
       "Investigador en MIT especializado en IA, autonomía y robótica.",
       "Conduce uno de los podcasts más populares sobre inteligencia artificial y filosofía.",
